@@ -1,0 +1,9 @@
+/var/log/tianti/*.log {
+    daily
+    rotate 30
+    missingok
+    notifempty
+    dateext
+    compress
+    copytruncate
+}

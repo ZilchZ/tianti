@@ -1,0 +1,15 @@
+[Unit]
+Description=tianti
+
+
+[Service]
+Type=simple
+PIDFile=/var/run/tianti.pid
+RemainAfterExit=no
+ExecStart=/home/venv/bin/tianti --config-file /etc/tianti/tianti_dev.ini --log-file /var/log/tianti/tianti.log
+TimeoutStopSec=5
+KillMode=process
+PrivateTmp=false
+
+[Install]
+WantedBy=multi-user.target

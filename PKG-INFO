@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: tianti
+Version: 1.0.0
+Author: zilch zhong
+License: UNKNOWN
+
+Classifier: Environment :: tianti
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: None
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 2.7
